@@ -1,0 +1,65 @@
+body {
+    background-color: #211d2b;
+    margin: 0 ;
+    padding: 0;
+    background-image: url(../images/bg-stars.svg);
+    font-family: "Red Hat Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }  
+  
+  .event-start-soon {
+    color: white;
+    text-align: center;
+    margin-top: 141px;
+    letter-spacing: 10px;
+  }
+  
+  .countdown-card {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    position: relative;
+  }
+
+  .timer{
+    font-size: 5rem;
+    color: #F65E84;
+    background-image: linear-gradient(to bottom, #2C2C44 50%, #34364F 50%);
+    padding: 20px;
+    border-radius: 6px;
+  }
+
+  .timer-title{
+    background-image: linear-gradient(to right, blue, green);
+    -webkit-background-clip: text; /* for Safari/Chrome */
+    background-clip: text;
+    color: transparent; /* Hide the original text color */
+    color: #8483A2;
+    letter-spacing: 10px;
+  }
+
+  .event-account {
+    background-image: url(../images/pattern-hills.svg);
+    background-size: cover; /* Cover entire container */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-position: center; /* Center the image */
+    display: flex;
+    column-gap: 32px;
+    justify-content: center;
+    align-items: center; /* Center vertically */
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Occupy full width */
+    min-height: 160px; /* Minimum height to ensure content visibility */
+  }
+
+  @media screen and (min-width: 1200px) {
+    .event-account {
+      max-height: 300px; /* Adjust height for larger screens */
+    }
+  }
